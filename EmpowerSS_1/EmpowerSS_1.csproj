@@ -40,36 +40,58 @@
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
-      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=1.4.2.13, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpZipLib.1.4.2\lib\netstandard2.0\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net, Version=2.0.0.668, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
-      <HintPath>..\packages\Skyline.DataMiner.Files.protobufnet.10.1.0.6\lib\net462\protobuf-net.dll</HintPath>
+      <HintPath>..\packages\Skyline.DataMiner.Files.protobufnet.10.3.3.1\lib\net462\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="Skyline.DataMiner.Core.DataMinerSystem.Automation, Version=1.1.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Skyline.DataMiner.Core.DataMinerSystem.Automation.1.1.0.2\lib\net462\Skyline.DataMiner.Core.DataMinerSystem.Automation.dll</HintPath>
+    </Reference>
+    <Reference Include="Skyline.DataMiner.Core.DataMinerSystem.Common, Version=1.1.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Skyline.DataMiner.Core.DataMinerSystem.Common.1.1.0.2\lib\net462\Skyline.DataMiner.Core.DataMinerSystem.Common.dll</HintPath>
     </Reference>
     <Reference Include="Skyline.DataMiner.Storage.Types, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9789b1eac4cb1b12, processorArchitecture=MSIL">
-      <HintPath>..\packages\Skyline.DataMiner.Files.Skyline.DataMiner.Storage.Types.10.1.0.6\lib\net462\Skyline.DataMiner.Storage.Types.dll</HintPath>
+      <HintPath>..\packages\Skyline.DataMiner.Files.Skyline.DataMiner.Storage.Types.10.3.3.1\lib\net462\Skyline.DataMiner.Storage.Types.dll</HintPath>
     </Reference>
     <Reference Include="SLAnalyticsTypes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9789b1eac4cb1b12, processorArchitecture=MSIL">
-      <HintPath>..\packages\Skyline.DataMiner.Files.SLAnalyticsTypes.10.1.0.6\lib\net462\SLAnalyticsTypes.dll</HintPath>
+      <HintPath>..\packages\Skyline.DataMiner.Files.SLAnalyticsTypes.10.3.3.1\lib\net462\SLAnalyticsTypes.dll</HintPath>
     </Reference>
     <Reference Include="SLLoggerUtil, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9789b1eac4cb1b12, processorArchitecture=MSIL">
-      <HintPath>..\packages\Skyline.DataMiner.Files.SLLoggerUtil.10.1.0.6\lib\net462\SLLoggerUtil.dll</HintPath>
+      <HintPath>..\packages\Skyline.DataMiner.Files.SLLoggerUtil.10.3.3.1\lib\net462\SLLoggerUtil.dll</HintPath>
     </Reference>
     <Reference Include="SLManagedAutomation, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
-      <HintPath>..\packages\Skyline.DataMiner.Files.SLManagedAutomation.10.1.0.6\lib\net462\SLManagedAutomation.dll</HintPath>
+      <HintPath>..\packages\Skyline.DataMiner.Files.SLManagedAutomation.10.3.3.1\lib\net462\SLManagedAutomation.dll</HintPath>
     </Reference>
     <Reference Include="SLNetTypes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9789b1eac4cb1b12, processorArchitecture=MSIL">
-      <HintPath>..\packages\Skyline.DataMiner.Files.SLNetTypes.10.1.0.6\lib\net462\SLNetTypes.dll</HintPath>
+      <HintPath>..\packages\Skyline.DataMiner.Files.SLNetTypes.10.3.3.1\lib\net462\SLNetTypes.dll</HintPath>
     </Reference>
     <Reference Include="SLProtoBufLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9789b1eac4cb1b12, processorArchitecture=MSIL">
-      <HintPath>..\packages\Skyline.DataMiner.Files.SLProtoBufLibrary.10.1.0.6\lib\net462\SLProtoBufLibrary.dll</HintPath>
+      <HintPath>..\packages\Skyline.DataMiner.Files.SLProtoBufLibrary.10.3.3.1\lib\net462\SLProtoBufLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <AdditionalFiles Include="stylecop.json" />
     <Content Include=".editorconfig" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +99,7 @@
     <Compile Include="EmpowerSS_1.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,7 +109,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties DisLinkId="1" DisProjectType="automationScriptProject" DisLinkedXmlFile="..\EmpowerSS.xml" />
+      <UserProperties DisLinkedXmlFile="..\EmpowerSS.xml" DisProjectType="automationScriptProject" DisLinkId="1" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
